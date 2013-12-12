@@ -25,3 +25,16 @@ config.status
 compile
 stamp-h1
 *.a
+*.ko
+*.lib
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
